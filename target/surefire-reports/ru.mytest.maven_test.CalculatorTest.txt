@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ru.mytest.maven_test.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.498 sec <<< FAILURE! - in ru.mytest.maven_test.CalculatorTest
+testSum[1](ru.mytest.maven_test.CalculatorTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: Результат(8) не равен 
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at ru.mytest.maven_test.CalculatorTest.testSum(CalculatorTest.java:61)
+
