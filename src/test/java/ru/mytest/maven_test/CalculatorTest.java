@@ -27,7 +27,7 @@ public class CalculatorTest {
 
 	@Before
 	public void beforeEachTest() {
-		System.out.println("Начало теста");
+		System.out.println("Начало теста. Входные параметры "+firstParameter+operation+secondParameter+"="+result);
 	}
 
 	@After
