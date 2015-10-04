@@ -4,11 +4,10 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -19,11 +18,6 @@ import ru.mytest.maven_test.ICalculator;
 @RunWith(Parameterized.class)
 public class CalculatorTest {
 	private static ICalculator calculator;
-
-	@BeforeClass
-	public static void initCalculator() {
-		calculator = new Calculator();
-	}
 
 	@Before
 	public void beforeEachTest() {
